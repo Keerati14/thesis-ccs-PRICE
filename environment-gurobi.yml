@@ -1,0 +1,20 @@
+name: price-gurobi
+channels:
+  - conda-forge
+  - gurobi        # Gurobi conda channel
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - openpyxl
+  - pyomo
+  - highspy
+  - glpk
+  - gurobi        # requires a valid Gurobi license
+  - pip
+  - pip:
+      - qrcode[pil]
