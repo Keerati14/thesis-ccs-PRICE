@@ -104,7 +104,7 @@ If you choose Gurobi, ensure your license is active (run `grbgetkey <YOUR-KEY>` 
 
 If you use this repository or a tagged release, please cite:
 
-**Chukorn, K. (2025). PRICE — Policy Revenue for Industrial CCS Enablement (thesis code).** GitHub.  
+**Chukorn, K. (2025). PRICE — Policy Revenue for Industrial CCS Enablement.** GitHub.  
 Repository: https://github.com/Keerati14/thesis-ccs-PRICE
 
 (Optionally cite a specific release tag or DOI if minted via Zenodo.)
