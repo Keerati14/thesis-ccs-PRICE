@@ -1,4 +1,4 @@
-##PRICE — Policy Revenue for Industrial CCS Enablement (Thesis Code)
+## PRICE — Policy Revenue for Industrial CCS Enablement (Thesis Code)
 
 Code, notebooks, and minimal data to reproduce the core figures and results of my MSc Environmental Technology thesis at Imperial College London.
 
