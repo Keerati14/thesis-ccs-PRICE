@@ -84,10 +84,36 @@ If you choose Gurobi, ensure your license is active (run `grbgetkey <YOUR-KEY>` 
 
 ---
 
-## Data & units
+## Data & Assumptions
 
 - **Units:** prices in **constant 2024 USD/tCO₂**. Axes default to **0–100** for Tax/ETS unless otherwise noted; capture cost commonly **60–120**.
 - **Data policy:** do **not** commit large or licensed data. Use `data/README.md` to point to official sources and include checksums. Provide **small sample inputs** in `data/processed/` so the notebook runs end‑to‑end.
+
+**Key data files**
+- `ClimateTrace_OriginalData/` — cleaned Climate TRACE extracts + modelling assumptions.
+- `ClimateTrace_folder/` — raw plant-level data (focus sectors) from Climate TRACE.
+- `OEC_ASEAN_Trade/` — filtered ASEAN trade data (focus sectors).
+- `WorldBank_CarbonPricing` — summary stats for global ETS prices & carbon taxes.
+
+**Original sources**
+- Climate TRACE: https://climatetrace.org/data  
+- World Bank Carbon Pricing: https://carbonpricingdashboard.worldbank.org/compliance/price  
+- OEC bulk trade: https://oec.world/en/resources/bulk-download/international?topic=Trade
+
+**Key assumptions (capture rate, f)**
+- Iron & steel — **70%**  
+  https://www.ramboll.com/en-apac/insights/decarbonise-for-net-zero/decarbonising-steel-industry-in-southeast-asia-balancing-short-term-wins-and-long-term-strategies
+- Ammonia — **94.4%**  
+  https://iea.blob.core.windows.net/assets/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf
+- Cement — **36%**  
+  https://aseanenergy.org/wp-content/uploads/2025/06/Guideline-for-Energy-Performance-Benchmark-in-Cement-Industry-in-ASEAN_Report.pdf
+- Refining — **62%**  
+  https://doi.org/10.3389/fceng.2022.804163
+
+**ASEAN capture cost (context)**
+- McKinsey SE Asia CCS overview: https://www.mckinsey.com/featured-insights/future-of-asia/ccs-in-southeast-asia-an-opportunity-or-distant-reality
+
+
 
 ---
 
